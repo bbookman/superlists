@@ -15,7 +15,9 @@ class NewVisitorTest(unittest.TestCase):
         self.browser.get('http://localhost:8000')
 #The todo site returns
         self.assertIn('To-Do', self.browser.title)
-        self.fail()
+    def test_reminder(self):
+        self.fail('Finish the tests')
+
 if __name__ == '__main__':
     unittest.main(warnings = 'ignore')
 
