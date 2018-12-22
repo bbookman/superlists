@@ -2,3 +2,6 @@ db.sqllite3
 geckodriver.log
 virtualenv
 /lib
+pip-selfcheck.json
+pyvenv.cfg
+.pyc
