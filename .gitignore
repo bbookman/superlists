@@ -5,3 +5,6 @@ virtualenv
 pip-selfcheck.json
 pyvenv.cfg
 .pyc
+.DS_Store
+/bin
+db.sqlite3
